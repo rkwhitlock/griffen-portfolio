@@ -31,13 +31,27 @@
 
 .name {
   color: #465fc8;
-  font-family: "Andika New Basic";
+  font-family: "Andika";
   font-size: 80px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   padding-left: 121px;
   padding-top: 80px;
+}
+
+.fallen {
+  padding-left: 400px;
+}
+
+.sub {
+  color: #7d889e;
+  font-family: "Andika";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 121px;
 }
 
 .App-logo {

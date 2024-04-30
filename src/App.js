@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="img-overlay-wrap">
-        <img className="prof" src="/home/prof.png"></img>
+        <img src="/home/prof.png"></img>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="122"
@@ -17,6 +17,10 @@ function App() {
         </svg>{" "}
       </div>
       <div className="name">Griffen Bengard</div>
+      <div className="sub">UX Design</div>
+      <div className="fallen">
+        <img src="/home/fallen-star/fs.png"></img>
+      </div>
     </div>
   );
 }
