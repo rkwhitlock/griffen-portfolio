@@ -1,5 +1,43 @@
 .App {
-  text-align: center;
+  background: linear-gradient(180deg, #a0b1f7 0%, #f2f5ce 100%);
+}
+
+.img-overlay-wrap {
+  position: relative;
+  display: inline-block; /* <= shrinks container to image size */
+  transition: transform 150ms ease-in-out;
+  width: 122px;
+  height: 122px;
+  flex-shrink: 0;
+  padding-left: 67px;
+  padding-top: 49px;
+}
+
+.img-overlay-wrap svg {
+  /* <= optional, for responsiveness */
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-overlay-wrap img {
+  padding-left: 75px;
+  padding-top: 55px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 60px;
+}
+
+.name {
+  color: #465fc8;
+  font-family: "Andika New Basic";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 121px;
+  padding-top: 80px;
 }
 
 .App-logo {
